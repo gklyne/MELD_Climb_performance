@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/climb_Motivation",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/climb_Motivation",
+  "annal:default_view": "_view/climb_Motivation",
+  "annal:display_type": "List",
+  "annal:id": "climb_Motivation",
+  "annal:list_entity_selector": "'climb:Motivation' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:record_type": "climb:Motivation",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Climb! event motivations\r\n\r\nList entities of type [Climb! event motivation]($BASE:_type/climb_Motivation).",
+  "rdfs:label": "Climb! event motivations"
+}

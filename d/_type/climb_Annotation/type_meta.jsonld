@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/climb_Annotation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "climb_Annotation",
+  "annal:supertype_uri": [
+    {
+      "@id": "meld:Annotation"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/climb_Annotation",
+  "annal:type_view": "_view/climb_Annotation",
+  "annal:uri": "climb:Annotation",
+  "rdfs:comment": "# Climb! performance annotation\r\n\r\nEntity type [Climb! performance annotation]($BASE:_type/meld_Annotation_sub), subtype of [Musical annotation]($BASE:_type/meld_Annotation).\r\n\r\nThese represent Muzicode-triggered events or potential events that may occur in a Climb! performance.  Some are MELD-related, but others may relate to trigger non-musical interactions (e.g. visual display changes).\r\n\r\nWithin a MELD session, these annotations describe actual events generated during a Climb! performance.\r\n\r\nOutside a MELD session, they may be used as templates for events to be generated when the corresponding Muzicode is detected.\r\n\r\n@@TODO: need to discuss this last point; do we need a way to gather annotation templates relating to a Climb! stage?  Can the same Muzicode appear in more that one stage?",
+  "rdfs:label": "Climb! performance annotation @@"
+}

@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode_Type/APPROACHING",
+  "@type": [
+    "climb:Muzicode_Type",
+    "meld:motivation",
+    "skos:Concept",
+    "oa:Motivation",
+    "annal:EntityData"
+  ],
+  "annal:id": "APPROACHING",
+  "annal:type": "climb:Muzicode_Type",
+  "annal:type_id": "climb_Muzicode_Type",
+  "rdfs:comment": "# Approaching\r\n\r\nSignals that the performer has to choose a path @@@",
+  "rdfs:label": "Approaching"
+}

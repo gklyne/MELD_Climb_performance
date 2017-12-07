@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/climb_Muzicode",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "climb_Muzicode",
+  "annal:supertype_uri": [
+    {
+      "@id": "meld:Muzicode"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/climb_Muzicode",
+  "annal:type_view": "_view/climb_Muzicode",
+  "annal:uri": "climb:Muzicode",
+  "rdfs:comment": "# Muzicode\r\n\r\nEntity type [Muzicode]($BASE:_type/meld_Expression_sub), subtype of [Musical expression]($BASE:_type/meld_Expression).\r\n\r\nThis describes a muzicode used as an event trigger in the Climb! application.",
+  "rdfs:label": "Muzicode"
+}

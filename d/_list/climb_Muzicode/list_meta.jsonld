@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/climb_Muzicode",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/climb_Muzicode",
+  "annal:default_view": "_view/climb_Muzicode",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "climb_Muzicode",
+  "annal:list_entity_selector": "'climb:Muzicode' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "climb:Muzicode",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Climb! Muzicodes\r\n\r\nList of Muzicodes used by Climb!  I.e., entities of type [Muzicode]($BASE:_type/climb_Muzicode).",
+  "rdfs:label": "Climb! Muzicodes"
+}

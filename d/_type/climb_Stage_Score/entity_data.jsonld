@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type_copy/climb_Stage_Score",
+  "@type": [
+    "/annalist/c/MELD_Climb_performance/d/_type/_type_copy/",
+    "annal:EntityData"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "climb_Stage_Score",
+  "annal:supertype_uri": [
+    {
+      "@id": "meld:Score"
+    }
+  ],
+  "annal:type": "/annalist/c/MELD_Climb_performance/d/_type/_type_copy/",
+  "annal:type_id": "_type_copy",
+  "annal:type_list": "_list/climb_Stage_Score",
+  "annal:type_view": "_view/climb_Stage_Score",
+  "annal:uri": "climb:Stage_Score",
+  "rdfs:comment": "# Climb! stage score\r\n\r\nEntity type [Climb! stage score]($BASE:_type/meld_Score_MEI_sub), subtype of [Musical score as MEI]($BASE:_type/meld_Score_MEI).",
+  "rdfs:label": "Climb! stage score"
+}

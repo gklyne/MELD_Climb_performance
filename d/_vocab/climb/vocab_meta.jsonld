@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/climb",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "climb",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://meld.linkedmusic.org/climb/terms/",
+  "rdfs:comment": "# Climb MELD application terms namespace\r\n\r\nNamespace for Climb!-specific terms used in the MELD description of a Climb! performance.",
+  "rdfs:label": "Climb MELD application terms namespace",
+  "rdfs:seeAlso": [
+    {
+      "@id": "https://github.com/oerc-music/meld"
+    },
+    {
+      "@id": "https://github.com/oerc-music/meld-client"
+    }
+  ]
+}

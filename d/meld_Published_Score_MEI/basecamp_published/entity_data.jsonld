@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Published_Score_MEI/basecamp_published",
+  "@type": [
+    "meld:Published_Score_MEI",
+    "mo:MusicalManifestation",
+    "frbr:Manifestation_MEI",
+    "frbr:Manifestation",
+    "meld:Manifestation_MEI",
+    "mo:PublishedScore",
+    "frbr:Group_1_entity",
+    "meld:Manifestation",
+    "annal:EntityData"
+  ],
+  "annal:id": "basecamp_published",
+  "annal:type": "meld:Published_Score_MEI",
+  "annal:type_id": "meld_Published_Score_MEI",
+  "frbr:part": [],
+  "frbr:url": "climbstage:basecamp",
+  "meld:segments": "",
+  "mo:published_as": "",
+  "rdfs:comment": "# Published score for \"basecamp\"",
+  "rdfs:label": "Published score for \"basecamp\""
+}

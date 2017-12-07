@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Work/Climb_Basecamp",
+  "@type": [
+    "meld:Work",
+    "mo:MusicalWork",
+    "frbr:Group_1_entity",
+    "frbr:Work",
+    "annal:EntityData"
+  ],
+  "annal:id": "Climb_Basecamp",
+  "annal:type": "meld:Work",
+  "annal:type_id": "meld_Work",
+  "meld:realization": [
+    {
+      "@id": "climb_Stage_Score/basecamp"
+    }
+  ],
+  "rdfs:comment": "# Climb! Basecamp conceptual work",
+  "rdfs:label": "Climb! Basecamp (work)"
+}

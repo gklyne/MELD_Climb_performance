@@ -1,0 +1,464 @@
+{
+  "@context": {
+    "_base_": "http://localhost:8000/annalist/c/MELD_Climb_performance/d/",
+    "_coll_": "http://localhost:8000/annalist/c/MELD_Climb_performance/",
+    "_site_": "http://localhost:8000/annalist/",
+    "annal": "http://purl.org/annalist/2014/#",
+    "annal:alias_source": {
+      "@type": "@id",
+      "fid": "Type_aliases",
+      "subfid": "Type_alias_source"
+    },
+    "annal:alias_target": {
+      "@type": "@id",
+      "fid": "Type_aliases",
+      "subfid": "Type_alias_target"
+    },
+    "annal:default_list": {
+      "fid": "Coll_default_list_id",
+      "vid": "Collection_view"
+    },
+    "annal:default_type": {
+      "@type": "@id",
+      "fid": "List_default_type",
+      "vid": "List_view"
+    },
+    "annal:default_value": {
+      "fid": "Field_default",
+      "vid": "Field_view"
+    },
+    "annal:default_view": {
+      "@type": "@id",
+      "fid": "List_default_view",
+      "vid": "List_view"
+    },
+    "annal:default_view_entity": {
+      "fid": "Coll_default_view_entity",
+      "vid": "Collection_view"
+    },
+    "annal:default_view_id": {
+      "fid": "Coll_default_view_id",
+      "vid": "Collection_view"
+    },
+    "annal:default_view_type": {
+      "fid": "Coll_default_view_type",
+      "vid": "Collection_view"
+    },
+    "annal:display_type": {
+      "@type": "@id",
+      "fid": "List_type",
+      "vid": "List_view"
+    },
+    "annal:entity_list": {
+      "@container": "@list"
+    },
+    "annal:field_aliases": {
+      "@container": "@list",
+      "fid": "Type_aliases",
+      "vid": "Type_view"
+    },
+    "annal:field_entity_type": {
+      "@type": "@id",
+      "fid": "Field_entity_type",
+      "vid": "Field_view"
+    },
+    "annal:field_fields": {
+      "@container": "@list",
+      "fid": "Field_fields",
+      "vid": "Field_view"
+    },
+    "annal:field_id": {
+      "@type": "@id",
+      "fid": "Group_fields",
+      "subfid": "Group_field_sel"
+    },
+    "annal:field_placement": {
+      "fid": "Group_fields",
+      "subfid": "Group_field_placement"
+    },
+    "annal:field_ref_field": {
+      "@type": "@id",
+      "fid": "Field_fieldref",
+      "vid": "Field_view"
+    },
+    "annal:field_ref_restriction": {
+      "fid": "Field_restrict",
+      "vid": "Field_view"
+    },
+    "annal:field_ref_type": {
+      "@type": "@id",
+      "fid": "Field_typeref",
+      "vid": "Field_view"
+    },
+    "annal:field_render_type": {
+      "@type": "@id",
+      "fid": "Field_render_type",
+      "vid": "Field_view"
+    },
+    "annal:field_value_mode": {
+      "@type": "@id",
+      "fid": "Field_value_mode",
+      "vid": "Field_view"
+    },
+    "annal:field_value_type": {
+      "@type": "@id",
+      "fid": "Field_value_type",
+      "vid": "Field_view"
+    },
+    "annal:group_fields": {
+      "@container": "@list",
+      "fid": "Group_fields",
+      "vid": "Field_group_view"
+    },
+    "annal:id": {
+      "fid": "Entity_id",
+      "vid": "ao_Annotation"
+    },
+    "annal:inherit_from": {
+      "@type": "@id",
+      "fid": "Coll_parent",
+      "vid": "Collection_view"
+    },
+    "annal:list_entity_selector": {
+      "fid": "List_entity_selector",
+      "vid": "List_view"
+    },
+    "annal:list_fields": {
+      "@container": "@list",
+      "fid": "List_fields",
+      "vid": "List_view"
+    },
+    "annal:meta_comment": {
+      "fid": "Coll_comment",
+      "vid": "Collection_view"
+    },
+    "annal:open_view": {
+      "fid": "View_edit_view",
+      "vid": "View_view"
+    },
+    "annal:placeholder": {
+      "fid": "Field_placeholder",
+      "vid": "Field_view"
+    },
+    "annal:property_uri": {
+      "@type": "@id",
+      "fid": "Group_fields",
+      "subfid": "Group_field_property"
+    },
+    "annal:record_type": {
+      "@type": "@id",
+      "fid": "Group_target_type",
+      "vid": "Field_group_view"
+    },
+    "annal:repeat_label_add": {
+      "fid": "Field_repeat_label_add",
+      "vid": "Field_view"
+    },
+    "annal:repeat_label_delete": {
+      "fid": "Field_repeat_label_delete",
+      "vid": "Field_view"
+    },
+    "annal:software_version": {
+      "fid": "Coll_software_version",
+      "vid": "Collection_view"
+    },
+    "annal:supertype_uri": {
+      "@container": "@list",
+      "fid": "Type_supertype_uris",
+      "vid": "Type_view"
+    },
+    "annal:tooltip": {
+      "fid": "Field_tooltip",
+      "vid": "Field_view"
+    },
+    "annal:type": {
+      "@type": "@id"
+    },
+    "annal:type_id": {
+      "fid": "Entity_type",
+      "vid": "ao_Annotation"
+    },
+    "annal:type_list": {
+      "@type": "@id",
+      "fid": "Type_list",
+      "vid": "Type_view"
+    },
+    "annal:type_view": {
+      "@type": "@id",
+      "fid": "Type_view",
+      "vid": "Type_view"
+    },
+    "annal:uri": {
+      "@type": "@id",
+      "fid": "Entity_uri",
+      "vid": "meld_Motivation"
+    },
+    "annal:user_permission": {
+      "@container": "@set",
+      "fid": "User_permissions",
+      "vid": "User_view"
+    },
+    "annal:user_uri": {
+      "@type": "@id",
+      "fid": "User_uri",
+      "vid": "User_view"
+    },
+    "annal:view_fields": {
+      "@container": "@list",
+      "fid": "View_fields",
+      "vid": "View_view"
+    },
+    "ao": "http://www.w3.org/ns/oa#",
+    "climb": "http://meld.linkedmusic.org/climb/terms/",
+    "climb:action_animation": {
+      "@type": "@id",
+      "fid": "action_animation",
+      "vid": "climb_Actions"
+    },
+    "climb:action_animation_delay_value": {
+      "fid": "action_animation_delay_value",
+      "vid": "climb_Actions"
+    },
+    "climb:action_app_message": {
+      "fid": "action_app_message",
+      "vid": "climb_Actions"
+    },
+    "climb:action_background_visual": {
+      "@type": "@id",
+      "fid": "action_background_visual",
+      "vid": "climb_Actions"
+    },
+    "climb:action_mc2_delay": {
+      "fid": "action_mc2_delay",
+      "vid": "climb_Actions"
+    },
+    "climb:action_mc2_visual": {
+      "@type": "@id",
+      "fid": "action_mc2_visual",
+      "vid": "climb_Actions"
+    },
+    "climb:action_mc_visual": {
+      "@type": "@id",
+      "fid": "action_mc_visual",
+      "vid": "climb_Actions"
+    },
+    "climb:action_midi": {
+      "fid": "action_midi",
+      "vid": "climb_Actions"
+    },
+    "climb:action_midi2_delayed": {
+      "fid": "action_midi2_delayed",
+      "vid": "climb_Actions"
+    },
+    "climb:action_midi_delay_value": {
+      "fid": "action_midi_delay_value",
+      "vid": "climb_Actions"
+    },
+    "climb:action_monitor_visual": {
+      "@type": "@id",
+      "fid": "action_monitor_visual",
+      "vid": "climb_Actions"
+    },
+    "climb:auto": {
+      "@type": "@id",
+      "fid": "climb_initial_actions",
+      "vid": "climb_Stage_Score"
+    },
+    "climb:cue_stage": {
+      "@type": "@id",
+      "fid": "action_cue_stage",
+      "vid": "climb_Actions"
+    },
+    "climb:default_cue_stage": {
+      "@type": "@id",
+      "fid": "climb_default_cue_stage",
+      "vid": "climb_Stage_Score"
+    },
+    "climb:next_stage": {
+      "@type": "@id",
+      "fid": "climb_next_stage",
+      "vid": "climb_Stage_Score"
+    },
+    "climbstage": "http://meld.linkedmusic.org/climb/stage/",
+    "coll": "http://id.annalist.net/coll/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "frbr": "http://purl.org/vocab/frbr/core#",
+    "frbr:embodiment": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "frbr_embodiment_r",
+      "vid": "frbr_Expression"
+    },
+    "frbr:part": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "frbr_expr_part_r",
+      "vid": "frbr_Expression"
+    },
+    "frbr:realization": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "frbr_realization_r",
+      "vid": "frbr_Work"
+    },
+    "frbr:url": {
+      "@type": "@id",
+      "fid": "frbr_url",
+      "vid": "frbr_Manifestation_MEI"
+    },
+    "import_name": "annal:import_name",
+    "import_url": {
+      "@id": "annal:import_url",
+      "@type": "@id"
+    },
+    "journal": "http://id.annalist.net/journal/",
+    "journal:date": {
+      "fid": "Journal_date",
+      "vid": "Journal_entry"
+    },
+    "journal:location": {
+      "fid": "Journal_location",
+      "vid": "Journal_entry"
+    },
+    "meld": "http://meld.linkedmusic.org/terms/",
+    "meld:endsWith": {
+      "@type": "@id",
+      "fid": "meld_endsWith",
+      "vid": "meld_MEI_Embodiment"
+    },
+    "meld:realization": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "meld_realization_r",
+      "vid": "mo_Work"
+    },
+    "meld:segments": {
+      "@type": "@id",
+      "fid": "meld_segments",
+      "vid": "meld_Score_MEI"
+    },
+    "meld:startsWith": {
+      "@type": "@id",
+      "fid": "meld_startsWith",
+      "vid": "meld_MEI_Embodiment"
+    },
+    "mo": "http://purl.org/ontology/mo/",
+    "mo:published_as": {
+      "@type": "@id",
+      "fid": "meld_published_as_mei",
+      "vid": "meld_Score_MEI"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rdfs:comment": {
+      "fid": "Entity_comment",
+      "vid": "ao_Annotation"
+    },
+    "rdfs:label": {
+      "fid": "Entity_label",
+      "vid": "ao_Annotation"
+    },
+    "rdfs:member": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "rdfs_member_r",
+      "vid": "meld_Manifestation_Bag"
+    },
+    "rdfs:seeAlso": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Entity_see_also_r",
+      "vid": "Concept"
+    },
+    "resource": "http://id.annalist.net/resource/",
+    "resource:imported_audio": {
+      "fid": "Imported_audio",
+      "vid": "Imported_audio"
+    },
+    "resource:imported_image": {
+      "fid": "Imported_image",
+      "vid": "Imported_image"
+    },
+    "resource:included_audio_m": {
+      "@type": "@id",
+      "fid": "Included_audio_r",
+      "subfid": "Included_audio_m"
+    },
+    "resource:included_audio_r": {
+      "@container": "@list",
+      "fid": "Included_audio_r",
+      "vid": "Journal_entry"
+    },
+    "resource:included_image_m": {
+      "@type": "@id",
+      "fid": "Included_image_r",
+      "subfid": "Included_image_m"
+    },
+    "resource:included_image_r": {
+      "@container": "@list",
+      "fid": "Included_image_r",
+      "vid": "Journal_entry"
+    },
+    "resource:linked_audio": {
+      "@type": "@id",
+      "fid": "Linked_audio",
+      "vid": "Linked_audio"
+    },
+    "resource:linked_image": {
+      "@type": "@id",
+      "fid": "Linked_image",
+      "vid": "Linked_image"
+    },
+    "resource:resource": {
+      "@type": "@id",
+      "fid": "Web_resource",
+      "vid": "Web_resource"
+    },
+    "resource:resources": {
+      "@container": "@list",
+      "fid": "Web_resource_r",
+      "vid": "Journal_entry"
+    },
+    "resource:uploaded_audio": {
+      "fid": "Uploaded_audio",
+      "vid": "Uploaded_audio"
+    },
+    "resource:uploaded_image": {
+      "fid": "Uploaded_image",
+      "vid": "Uploaded_image"
+    },
+    "resource:web_resource_m": {
+      "@type": "@id",
+      "fid": "Web_resource_r",
+      "subfid": "Web_resource_m"
+    },
+    "resource_name": "annal:resource_name",
+    "resource_type": "annal:resource_type",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skos:broader": {
+      "@type": "@id",
+      "fid": "Broader_concept",
+      "vid": "meld_Motivation"
+    },
+    "skos:related": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Related_concept_r",
+      "vid": "Concept"
+    },
+    "so": "http://www.linkedmusic.org/ontologies/segment#",
+    "so:onSegmentLine": {
+      "@type": "@id",
+      "fid": "meld_on_segment_line",
+      "vid": "meld_Segment"
+    },
+    "upload_name": "annal:upload_name",
+    "uploaded_file": "annal:uploaded_file",
+    "uploaded_size": "annal:uploaded_size",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "_comment": "Generated by generate_coll_jsonld_context on 2017-12-06 12:36:14"
+}

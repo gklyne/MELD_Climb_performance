@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/climbstage",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "climbstage",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://meld.linkedmusic.org/climb/stage/",
+  "rdfs:comment": "# Base URL for Climb! stages\r\n\r\n",
+  "rdfs:label": "Base URL for Climb! stages",
+  "rdfs:seeAlso": []
+}

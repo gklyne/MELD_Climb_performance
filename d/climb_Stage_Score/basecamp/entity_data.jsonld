@@ -1,0 +1,40 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Stage_Score/basecamp",
+  "@type": [
+    "climb:Stage_Score",
+    "frbr:Group_1_entity",
+    "mo:MusicalExpression",
+    "mo:Score",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "basecamp",
+  "annal:missing_field": "",
+  "annal:type": "climb:Stage_Score",
+  "annal:type_id": "climb_Stage_Score",
+  "climb:auto": "climb_Actions/basecamp_auto",
+  "climb:cue_stage": "climb_Stage_Score/1a",
+  "climb:default_cue_stage": "",
+  "climb:next_stage": "climb_Stage_Score/1a",
+  "frbr:part": [
+    {
+      "@id": "climb_Muzicode/BC_Ending1"
+    },
+    {
+      "@id": "climb_Muzicode/BC_Ending2"
+    },
+    {
+      "@id": "climb_Muzicode/BC_Ending3"
+    }
+  ],
+  "frbr:part__2": [],
+  "mo:published_as": "meld_Published_Score_MEI/basecamp_published",
+  "rdfs:comment": "# Climb! Basecamp\r\n\r\nThe starting stage of a Climb! performance.",
+  "rdfs:label": "Climb! Basecamp"
+}

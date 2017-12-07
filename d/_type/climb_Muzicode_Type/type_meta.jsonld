@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/climb_Muzicode_Type",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "climb_Muzicode_Type",
+  "annal:supertype_uri": [
+    {
+      "@id": "meld:motivation"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/climb_Muzicode_Type",
+  "annal:type_view": "_view/climb_Muzicode_Type",
+  "annal:uri": "climb:Muzicode_Type",
+  "rdfs:comment": "# Climb! Muzicode type\r\n\r\nClimb! Muzicode type, or motivation, which indicates an intended response when a Muzicode event is triggered in the Climb! application.",
+  "rdfs:label": "Climb! Muzicode type (motivation)"
+}

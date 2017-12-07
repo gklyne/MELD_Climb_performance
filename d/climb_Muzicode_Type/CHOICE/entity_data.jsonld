@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode_Type/CHOICE",
+  "@type": [
+    "climb:Muzicode_Type",
+    "meld:motivation",
+    "skos:Concept",
+    "oa:Motivation",
+    "annal:EntityData"
+  ],
+  "annal:id": "CHOICE",
+  "annal:type": "climb:Muzicode_Type",
+  "annal:type_id": "climb_Muzicode_Type",
+  "rdfs:comment": "# Choice\r\n\r\nAllows performer to choose the next stage of the ascent.",
+  "rdfs:label": "Choice"
+}

@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode_Type/DISKCLAVIER",
+  "@type": [
+    "climb:Muzicode_Type",
+    "meld:motivation",
+    "skos:Concept",
+    "oa:Motivation",
+    "annal:EntityData"
+  ],
+  "annal:id": "DISKCLAVIER",
+  "annal:type": "climb:Muzicode_Type",
+  "annal:type_id": "climb_Muzicode_Type",
+  "rdfs:comment": "# Disklavier\r\n\r\nTriggers a passage to be played by the disklavier @@@",
+  "rdfs:label": "Disklavier"
+}

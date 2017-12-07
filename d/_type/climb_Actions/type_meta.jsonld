@@ -1,0 +1,22 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/climb_Actions",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "climb_Actions",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/climb_Actions",
+  "annal:type_view": "_view/climb_Actions",
+  "annal:uri": "climb:Actions",
+  "rdfs:comment": "# Climb! actions\r\n\r\nClimb! performance action(s) that may be triggered by a Muzicode detection or other stimulus.\r\n\r\n@@NOTE: it appears that some options are used only in auto-actions, and others only in Muzicode-triggered actions. It might be sensible to split these into different types and views.\r\n",
+  "rdfs:label": "Climb! actions"
+}

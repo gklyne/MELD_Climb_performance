@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/action_midi2_delayed",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "climb:Actions",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "",
+  "annal:id": "action_midi2_delayed",
+  "annal:placeholder": "(MIDI sequence to send after delay)",
+  "annal:property_uri": "climb:action_midi2_delayed",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "MIDI sequence to send after delay, as hexadecimal string.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Action MIDI2 delayed\r\n\r\nMIDI sequence to send after delay, as hexadecimal string.\r\n",
+  "rdfs:label": "Action MIDI2 delayed"
+}

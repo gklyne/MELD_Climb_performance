@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode_Type/CHALLENGE",
+  "@type": [
+    "climb:Muzicode_Type",
+    "meld:motivation",
+    "skos:Concept",
+    "oa:Motivation",
+    "annal:EntityData"
+  ],
+  "annal:id": "CHALLENGE",
+  "annal:type": "climb:Muzicode_Type",
+  "annal:type_id": "climb_Muzicode_Type",
+  "rdfs:comment": "# Challenge\r\n\r\nA challenge for the performer. @@@",
+  "rdfs:label": "Challenge"
+}

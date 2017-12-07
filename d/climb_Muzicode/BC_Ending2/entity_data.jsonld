@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode/BC_Ending2",
+  "@type": [
+    "climb:Muzicode",
+    "mo:MusicalExpression",
+    "meld:Muzicode",
+    "frbr:Group_1_entity",
+    "meld:Expression",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "BC_Ending2",
+  "annal:type": "climb:Muzicode",
+  "annal:type_id": "climb_Muzicode",
+  "climb:cue_stage": "climb_Stage_Score/1b",
+  "frbr:embodiment": "meld_Manifestation_Bag/BC_Ending2",
+  "frbr:part": [],
+  "mc:type": "climb_Muzicode_Type/CHOICE",
+  "rdfs:comment": "# Basecamp: The performer chose the second path",
+  "rdfs:label": "The performer chose the second path"
+}

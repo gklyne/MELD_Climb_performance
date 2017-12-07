@@ -1,0 +1,42 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/BC_Ending1",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "BC_Ending1",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "meld:endsWith": "test:end",
+  "meld:startsWith": "test:start",
+  "rdfs:comment": "# Basecamp: The performer chose the first path",
+  "rdfs:label": "The performer chose the first path",
+  "rdfs:member": [
+    {
+      "@id": "climbstage:basecamp#measure-000000198506034"
+    },
+    {
+      "@id": "climbstage:basecamp#note-000000082682288"
+    },
+    {
+      "@id": "climbstage:basecamp#note-000000149302777"
+    },
+    {
+      "@id": "climbstage:basecamp#note-000000029631110"
+    },
+    {
+      "@id": "climbstage:basecamp#note-000000125400855"
+    },
+    {
+      "@id": "climbstage:basecamp#note-000000109730427"
+    }
+  ]
+}

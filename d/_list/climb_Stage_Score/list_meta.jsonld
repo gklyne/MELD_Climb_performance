@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/climb_Stage_Score",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/climb_Stage_Score",
+  "annal:default_view": "_view/climb_Stage_Score",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "climb_Stage_Score",
+  "annal:list_entity_selector": "'climb:Stage_Score' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/meld_published_as_mei",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "climb:Stage_Score",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Climb! stage scores\r\n\r\nList entities of type [Climb! stage scores]($BASE:_type/climb_Stage_Score).",
+  "rdfs:label": "Climb! stage scores"
+}
