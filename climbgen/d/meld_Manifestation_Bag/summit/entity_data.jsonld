@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/summit",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "summit",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "rdfs:comment": "# summit: Muzicode summit (CHOICE)\r\n\r\n",
+  "rdfs:label": "summit: Muzicode summit (CHOICE)",
+  "rdfs:member": [
+    {
+      "@id": "Summit.mei#measure-0000001163822399"
+    },
+    {
+      "@id": "Summit.mei#note-0000000701917034"
+    },
+    {
+      "@id": "Summit.mei#note-0000001719551451"
+    }
+  ]
+}

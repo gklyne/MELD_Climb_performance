@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Stage_Published_Score/2a_published",
+  "@type": [
+    "meld:Published_Score_MEI",
+    "mo:MusicalManifestation",
+    "frbr:Manifestation_MEI",
+    "frbr:Manifestation",
+    "meld:Manifestation_MEI",
+    "mo:PublishedScore",
+    "frbr:Group_1_entity",
+    "meld:Manifestation",
+    "annal:EntityData"
+  ],
+  "annal:id": "2a_published",
+  "annal:type": "climb:Stage_Published_Score",
+  "annal:type_id": "climb_Stage_Published_Score",
+  "frbr:url": "climbstage:2aAFloodedPath.mei",
+  "rdfs:comment": "# Published score for \"2a\"\r\n\r\n",
+  "rdfs:label": "Published score for \"2a\""
+}

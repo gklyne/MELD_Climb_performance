@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Actions/5a_mc4:",
+  "@type": [
+    "climb:Actions",
+    "annal:EntityData"
+  ],
+  "annal:id": "5a_mc4:",
+  "annal:type": "climb:Actions",
+  "annal:type_id": "climb_Actions",
+  "climb:action_animation": null,
+  "climb:action_animation_delay_value": null,
+  "climb:action_app_message": null,
+  "climb:action_background_visual": null,
+  "climb:action_mc_delay": null,
+  "climb:action_mc_visual": null,
+  "climb:action_midi": "90437f",
+  "climb:action_midi2_delay_value": null,
+  "climb:action_midi2_delayed": null,
+  "climb:action_monitor_visual": null,
+  "climb:cue_stage": null,
+  "rdfs:comment": "# 5a: Muzicode 5a_mc4:",
+  "rdfs:label": "5a: Muzicode 5a_mc4:"
+}

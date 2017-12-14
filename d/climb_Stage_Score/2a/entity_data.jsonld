@@ -1,0 +1,43 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Stage_Score/2a",
+  "@type": [
+    "climb:Stage_Score",
+    "frbr:Group_1_entity",
+    "mo:MusicalExpression",
+    "mo:Score",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "2a",
+  "annal:type": "climb:Stage_Score",
+  "annal:type_id": "climb_Stage_Score",
+  "climb:auto": "2a_auto",
+  "climb:default_cue_stage": "",
+  "climb:next_stage": "climb_Stage_Score/p1b",
+  "climb:no_effect": "N",
+  "climb:rain_effect": "N",
+  "climb:snow_effect": "N",
+  "climb:storm_effect": "N",
+  "climb:sun_effect": "N",
+  "climb:wind_effect": "N",
+  "frbr:part": [
+    {
+      "@id": "climb_Muzicode/2a"
+    },
+    {
+      "@id": "climb_Muzicode/2a_mc3:"
+    },
+    {
+      "@id": "climb_Muzicode/2a_mc4:"
+    }
+  ],
+  "mo:published_as": "climb_Stage_Published_Score/2a_published",
+  "rdfs:comment": "# Climb! 2a\r\n\r\nStage 2a of a Climb! performance.",
+  "rdfs:label": "Climb! 2a"
+}

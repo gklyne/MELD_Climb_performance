@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Stage_Published_Score/basecamp_published",
+  "@type": [
+    "climb:Stage_Published_Score",
+    "mo:PublishedScore",
+    "frbr:Group_1_entity",
+    "mo:MusicalManifestation",
+    "meld:Published_Score_MEI",
+    "frbr:Manifestation_MEI",
+    "frbr:Manifestation",
+    "meld:Manifestation_MEI",
+    "annal:EntityData"
+  ],
+  "annal:id": "basecamp_published",
+  "annal:type": "climb:Stage_Published_Score",
+  "annal:type_id": "climb_Stage_Published_Score",
+  "frbr:part": [],
+  "frbr:url": "climbstage:basecamp",
+  "meld:segments": "",
+  "mo:published_as": "",
+  "rdfs:comment": "# Published score for \"basecamp\"",
+  "rdfs:label": "Published score for \"basecamp\""
+}

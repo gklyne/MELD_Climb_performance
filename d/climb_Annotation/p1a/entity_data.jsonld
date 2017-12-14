@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Annotation/p1a",
+  "@type": [
+    "climb:Annotation",
+    "oa:Annotation",
+    "meld:Annotation",
+    "annal:EntityData"
+  ],
+  "annal:id": "p1a",
+  "annal:type": "climb:Annotation",
+  "annal:type_id": "climb_Annotation",
+  "oa:hasBody": "climb_Actions/p1a",
+  "oa:hasTarget": "climb_Muzicode/p1a",
+  "oa:motivation": "climb_Muzicode_Type/DISKLAVIER",
+  "rdfs:comment": "# p1a: Muzicode p1a (CHOICE)\r\n\r\n\r\n\r\n",
+  "rdfs:label": "p1a: Muzicode p1a (CHOICE)"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/1a_1",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "rdfs:Container",
+    "rdf:Bag",
+    "annal:EntityData"
+  ],
+  "annal:id": "1a_1",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "rdfs:comment": "          \"#measure-000000148616120\",\r\n          \"#note-000000198492887\",\r\n          \"#note-000000083076564\",\r\n          \"#note-000000053163947\",\r\n          \"#note-000000040049496\"\r\n        ],\r\n        \"type\": \"disklavier\",\r\n        \"app\": \"A challenge is approaching\"",
+  "rdfs:label": "A challenge is approaching",
+  "rdfs:member": [
+    {
+      "@id": "#measure-000000148616120"
+    },
+    {
+      "@id": "#note-000000198492887"
+    },
+    {
+      "@id": "#note-000000083076564"
+    },
+    {
+      "@id": "#note-000000053163947"
+    },
+    {
+      "@id": "#note-000000040049496"
+    }
+  ]
+}

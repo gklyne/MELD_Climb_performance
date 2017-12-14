@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode/5a_1",
+  "@type": [
+    "climb:Muzicode",
+    "mo:MusicalExpression",
+    "meld:Muzicode",
+    "frbr:Group_1_entity",
+    "meld:Expression",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "5a_1",
+  "annal:type": "climb:Muzicode",
+  "annal:type_id": "climb_Muzicode",
+  "climb:cue_stage": "climb_Stage_Score/summit",
+  "frbr:embodiment": "meld_Manifestation_Bag/5a_1",
+  "mc:type": "climb_Muzicode_Type/CHALLENGE",
+  "rdfs:comment": "# 5a: The challenge was completed successfully\r\n\r\n\r\n\r\n",
+  "rdfs:label": "5a: The challenge was completed successfully"
+}

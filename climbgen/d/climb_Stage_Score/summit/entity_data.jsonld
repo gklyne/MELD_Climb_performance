@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Stage_Score/summit",
+  "@type": [
+    "climb:Stage_Score",
+    "frbr:Group_1_entity",
+    "mo:MusicalExpression",
+    "mo:Score",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "summit",
+  "annal:type": "climb:Stage_Score",
+  "annal:type_id": "climb_Stage_Score",
+  "climb:auto": "summit_auto",
+  "climb:default_cue_stage": "",
+  "climb:next_stage": "climb_Stage_Score/end",
+  "climb:no_effect": "N",
+  "climb:rain_effect": "N",
+  "climb:snow_effect": "N",
+  "climb:storm_effect": "N",
+  "climb:sun_effect": "N",
+  "climb:wind_effect": "N",
+  "frbr:part": [
+    {
+      "@id": "climb_Muzicode/summit"
+    }
+  ],
+  "mo:published_as": "climb_Stage_Published_Score/summit_published",
+  "rdfs:comment": "# Climb! summit\r\n\r\nStage summit of a Climb! performance.",
+  "rdfs:label": "Climb! summit"
+}

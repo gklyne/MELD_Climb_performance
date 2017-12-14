@@ -1,0 +1,43 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Stage_Score/p1a",
+  "@type": [
+    "climb:Stage_Score",
+    "frbr:Group_1_entity",
+    "mo:MusicalExpression",
+    "mo:Score",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "p1a",
+  "annal:type": "climb:Stage_Score",
+  "annal:type_id": "climb_Stage_Score",
+  "climb:auto": "p1a_auto",
+  "climb:default_cue_stage": "",
+  "climb:next_stage": "climb_Stage_Score/2a",
+  "climb:no_effect": "Y",
+  "climb:rain_effect": "Y",
+  "climb:snow_effect": "Y",
+  "climb:storm_effect": "Y",
+  "climb:sun_effect": "Y",
+  "climb:wind_effect": "Y",
+  "frbr:part": [
+    {
+      "@id": "climb_Muzicode/p1a"
+    },
+    {
+      "@id": "climb_Muzicode/p1a_mc3:"
+    },
+    {
+      "@id": "climb_Muzicode/p1a_mc4:"
+    }
+  ],
+  "mo:published_as": "climb_Stage_Published_Score/p1a_published",
+  "rdfs:comment": "# Climb! p1a\r\n\r\nStage p1a of a Climb! performance.",
+  "rdfs:label": "Climb! p1a"
+}

@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Annotation/1b",
+  "@type": [
+    "climb:Annotation",
+    "oa:Annotation",
+    "meld:Annotation",
+    "annal:EntityData"
+  ],
+  "annal:id": "1b",
+  "annal:type": "climb:Annotation",
+  "annal:type_id": "climb_Annotation",
+  "oa:hasBody": "climb_Actions/1b",
+  "oa:hasTarget": "climb_Muzicode/1b",
+  "oa:motivation": "climb_Muzicode_Type/CHALLENGE",
+  "rdfs:comment": "# 1b: The challenge was completed successfully\r\n\r\n\r\n\r\n",
+  "rdfs:label": "1b: The challenge was completed successfully"
+}

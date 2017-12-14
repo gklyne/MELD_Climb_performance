@@ -1,0 +1,72 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/BC_Ending2",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "rdfs:Container",
+    "rdf:Bag",
+    "annal:EntityData"
+  ],
+  "annal:id": "BC_Ending2",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "rdfs:comment": "# Basecamp: The performer chose the second path\r\n",
+  "rdfs:label": "The performer chose the second path",
+  "rdfs:member": [
+    {
+      "@id": "climb:basecamp#measure-000000009508808"
+    },
+    {
+      "@id": "climb:basecamp#measure-000000096586158"
+    },
+    {
+      "@id": "climb:basecamp#note-000000095852785"
+    },
+    {
+      "@id": "climb:basecamp#note-000000195660003"
+    },
+    {
+      "@id": "climb:basecamp#note-000000089424252"
+    },
+    {
+      "@id": "climb:basecamp#note-000000152704413"
+    },
+    {
+      "@id": "climb:basecamp#note-000000153094916"
+    },
+    {
+      "@id": "climb:basecamp#note-000000159603593"
+    },
+    {
+      "@id": "climb:basecamp#note-000000012026856"
+    },
+    {
+      "@id": "climb:basecamp#note-000000124217341"
+    },
+    {
+      "@id": "climb:basecamp#note-000000086489689"
+    },
+    {
+      "@id": "climb:basecamp#note-000000041829378"
+    },
+    {
+      "@id": "climb:basecamp#note-000000036096822"
+    },
+    {
+      "@id": "climb:basecamp#note-000000185677774"
+    },
+    {
+      "@id": "climb:basecamp#note-000000179074555"
+    },
+    {
+      "@id": "climb:basecamp#note-000000001881144"
+    }
+  ]
+}

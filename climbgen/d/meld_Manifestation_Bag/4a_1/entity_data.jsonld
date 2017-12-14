@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/4a_1",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "4a_1",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "rdfs:comment": "# 4a: A challenge is approaching\r\n\r\n",
+  "rdfs:label": "4a: A challenge is approaching",
+  "rdfs:member": [
+    {
+      "@id": "4aASleepingBear.mei#measure-000000066464619"
+    },
+    {
+      "@id": "4aASleepingBear.mei#note-000000187331024"
+    },
+    {
+      "@id": "4aASleepingBear.mei#note-000000127100484"
+    }
+  ]
+}

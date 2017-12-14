@@ -21,7 +21,7 @@
   "annal:field_value_type": "",
   "annal:id": "action_midi_delay_value",
   "annal:placeholder": "(Delay before sending delayed midi sequence)",
-  "annal:property_uri": "climb:action_midi_delay_value",
+  "annal:property_uri": "climb:action_midi2_delay_value",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
   "annal:tooltip": "Delay before sending delayed midi sequence.",

@@ -1,0 +1,46 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/5a_1",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "5a_1",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "rdfs:comment": "# 5a: The challenge was completed successfully\r\n\r\n",
+  "rdfs:label": "5a: The challenge was completed successfully",
+  "rdfs:member": [
+    {
+      "@id": "5aRollingStones.mei#measure-0000000396538400"
+    },
+    {
+      "@id": "5aRollingStones.mei#note-0000001307074695"
+    },
+    {
+      "@id": "5aRollingStones.mei#note-0000000008076238"
+    },
+    {
+      "@id": "5aRollingStones.mei#note-0000000120373061"
+    },
+    {
+      "@id": "5aRollingStones.mei#note-0000000661150948"
+    },
+    {
+      "@id": "5aRollingStones.mei#note-0000000127682057"
+    },
+    {
+      "@id": "5aRollingStones.mei#note-0000000167037493"
+    },
+    {
+      "@id": "5aRollingStones.mei#note-0000000574142104"
+    }
+  ]
+}

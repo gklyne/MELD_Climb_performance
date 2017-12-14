@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/p1b",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "p1b",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "rdfs:comment": "# p1b: Muzicode p1b (CHOICE)\r\n\r\n",
+  "rdfs:label": "p1b: Muzicode p1b (CHOICE)",
+  "rdfs:member": [
+    {
+      "@id": "Path1b.mei#measure-0000000713170799"
+    },
+    {
+      "@id": "Path1b.mei#note-0000001742125923"
+    },
+    {
+      "@id": "Path1b.mei#note-0000000920711050"
+    }
+  ]
+}

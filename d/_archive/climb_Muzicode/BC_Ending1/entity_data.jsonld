@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode/BC_Ending1",
+  "@type": [
+    "climb:Muzicode",
+    "mo:MusicalExpression",
+    "meld:Muzicode",
+    "frbr:Group_1_entity",
+    "meld:Expression",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "BC_Ending1",
+  "annal:missing_field": "",
+  "annal:type": "climb:Muzicode",
+  "annal:type_id": "climb_Muzicode",
+  "climb:cue_stage": "climb_Stage_Score/1a",
+  "frbr:embodiment": "meld_Manifestation_Bag/BC_Ending1",
+  "mc:type": "climb_Muzicode_Type/CHOICE",
+  "rdfs:comment": "# Basecamp: The performer chose the first path\r\n\r\n\r\n\r\n",
+  "rdfs:label": "The performer chose the first path"
+}

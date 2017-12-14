@@ -1,0 +1,40 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Stage_Score/p2c",
+  "@type": [
+    "climb:Stage_Score",
+    "frbr:Group_1_entity",
+    "mo:MusicalExpression",
+    "mo:Score",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "p2c",
+  "annal:type": "climb:Stage_Score",
+  "annal:type_id": "climb_Stage_Score",
+  "climb:auto": "p2c_auto",
+  "climb:default_cue_stage": "",
+  "climb:next_stage": "climb_Stage_Score/4b",
+  "climb:no_effect": "N",
+  "climb:rain_effect": "N",
+  "climb:snow_effect": "N",
+  "climb:storm_effect": "N",
+  "climb:sun_effect": "N",
+  "climb:wind_effect": "N",
+  "frbr:part": [
+    {
+      "@id": "climb_Muzicode/p2c_mc3:"
+    },
+    {
+      "@id": "climb_Muzicode/p2c_mc4:"
+    }
+  ],
+  "mo:published_as": "climb_Stage_Published_Score/p2c_published",
+  "rdfs:comment": "# Climb! p2c\r\n\r\nStage p2c of a Climb! performance.",
+  "rdfs:label": "Climb! p2c"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode/p2c_mc4:",
+  "@type": [
+    "climb:Muzicode",
+    "mo:MusicalExpression",
+    "meld:Muzicode",
+    "frbr:Group_1_entity",
+    "meld:Expression",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "p2c_mc4:",
+  "annal:type": "climb:Muzicode",
+  "annal:type_id": "climb_Muzicode",
+  "climb:cue_stage": "",
+  "frbr:embodiment": null,
+  "mc:type": "climb_Muzicode_Type/CHOICE",
+  "rdfs:comment": "# p2c: Muzicode p2c_mc4:\r\n\r\n\r\n\r\n",
+  "rdfs:label": "p2c: Muzicode p2c_mc4:"
+}

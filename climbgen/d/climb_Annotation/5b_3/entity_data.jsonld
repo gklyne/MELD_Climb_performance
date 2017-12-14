@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Annotation/5b_3",
+  "@type": [
+    "climb:Annotation",
+    "oa:Annotation",
+    "meld:Annotation",
+    "annal:EntityData"
+  ],
+  "annal:id": "5b_3",
+  "annal:type": "climb:Annotation",
+  "annal:type_id": "climb_Annotation",
+  "oa:hasBody": "climb_Actions/5b_3",
+  "oa:hasTarget": "climb_Muzicode/5b_3",
+  "oa:motivation": "climb_Muzicode_Type/CHOICE",
+  "rdfs:comment": "# 5b: Muzicode 5b_3\r\n\r\n\r\n\r\n",
+  "rdfs:label": "5b: Muzicode 5b_3"
+}

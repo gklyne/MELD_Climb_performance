@@ -1,0 +1,40 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/2a",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "2a",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "rdfs:comment": "# 2a: The challenge was completed successfully\r\n\r\n",
+  "rdfs:label": "2a: The challenge was completed successfully",
+  "rdfs:member": [
+    {
+      "@id": "2aAFloodedPath.mei#measure-000000186573315"
+    },
+    {
+      "@id": "2aAFloodedPath.mei#note-000000021736684"
+    },
+    {
+      "@id": "2aAFloodedPath.mei#note-000000095301712"
+    },
+    {
+      "@id": "2aAFloodedPath.mei#note-000000196534404"
+    },
+    {
+      "@id": "2aAFloodedPath.mei#note-000000062502761"
+    },
+    {
+      "@id": "2aAFloodedPath.mei#note-000000192519558"
+    }
+  ]
+}

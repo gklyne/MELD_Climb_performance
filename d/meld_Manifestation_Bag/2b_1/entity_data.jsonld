@@ -1,0 +1,28 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Manifestation_Bag/2b_1",
+  "@type": [
+    "meld:Manifestation_Bag",
+    "frbr:Manifestation",
+    "frbr:Group_1_entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "2b_1",
+  "annal:type": "meld:Manifestation_Bag",
+  "annal:type_id": "meld_Manifestation_Bag",
+  "rdfs:comment": "# 2b: A challenge is approaching\r\n\r\n",
+  "rdfs:label": "2b: A challenge is approaching",
+  "rdfs:member": [
+    {
+      "@id": "2bATreeTrunkonthePath.mei#measure-0000001127798386"
+    },
+    {
+      "@id": "2bATreeTrunkonthePath.mei#note-0000000345537996"
+    }
+  ]
+}

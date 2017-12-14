@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Actions/p1a_auto",
+  "@type": [
+    "climb:Actions",
+    "annal:EntityData"
+  ],
+  "annal:id": "p1a_auto",
+  "annal:type": "climb:Actions",
+  "annal:type_id": "climb_Actions",
+  "climb:action_animation": null,
+  "climb:action_animation_delay_value": null,
+  "climb:action_app_message": null,
+  "climb:action_background_visual": null,
+  "climb:action_mc_delay": null,
+  "climb:action_mc_visual": null,
+  "climb:action_midi": "90037f",
+  "climb:action_midi2_delay_value": null,
+  "climb:action_midi2_delayed": "90047f",
+  "climb:action_monitor_visual": null,
+  "climb:cue_stage": "2a",
+  "rdfs:comment": "# Stage p1a auto actions",
+  "rdfs:label": "Stage p1a auto actions"
+}

@@ -21,12 +21,12 @@
   "annal:field_value_type": "",
   "annal:id": "action_mc2_visual",
   "annal:placeholder": "(URL of resource to display on Muzicode visual channel after a delay)",
-  "annal:property_uri": "climb:action_mc2_visual",
+  "annal:property_uri": "climb:action_mc_visual",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
   "annal:tooltip": "URL of resource to display on Muzicode visual channel after a delay.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "# Action MC2 delayed visual\r\n\r\nURL of resource to display on Muzicode visual channel after a delay.",
-  "rdfs:label": "Action MC2 visual"
+  "rdfs:comment": "# Action MC delayed visual\r\n\r\nURL of resource to display on Muzicode visual channel after a delay.",
+  "rdfs:label": "Action MC delayed visual"
 }

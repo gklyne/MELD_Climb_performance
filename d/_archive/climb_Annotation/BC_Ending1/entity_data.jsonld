@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Annotation/BC_Ending1",
+  "@type": [
+    "climb:Annotation",
+    "oa:Annotation",
+    "meld:Annotation",
+    "annal:EntityData"
+  ],
+  "annal:id": "BC_Ending1",
+  "annal:type": "climb:Annotation",
+  "annal:type_id": "climb_Annotation",
+  "oa:hasBody": "climb_Actions/BC_Ending1",
+  "oa:hasTarget": "climb_Muzicode/BC_Ending1",
+  "oa:motivation": "climb_Muzicode_Type/CHOICE",
+  "rdfs:comment": "Basecamp ending 1",
+  "rdfs:label": "Basecamp ending 1"
+}

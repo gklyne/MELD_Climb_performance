@@ -20,13 +20,13 @@
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "",
   "annal:id": "action_mc2_delay",
-  "annal:placeholder": "(Delay before displaying MC2 value)",
-  "annal:property_uri": "climb:action_mc2_delay",
+  "annal:placeholder": "(Delay before displaying MC visual)",
+  "annal:property_uri": "climb:action_mc_delay",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
-  "annal:tooltip": "Delay before displaying MC2 value.",
+  "annal:tooltip": "Delay before displaying MC visual.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "# Action MC2 visual delay\r\n\r\nDelay before displaying MC2 value.",
-  "rdfs:label": "Action MC2 visual delay"
+  "rdfs:comment": "# Action MC visual delay\r\n\r\nDelay before displaying MC2 value.",
+  "rdfs:label": "Action MC visual delay"
 }

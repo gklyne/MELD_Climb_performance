@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Actions/p2b_auto",
+  "@type": [
+    "climb:Actions",
+    "annal:EntityData"
+  ],
+  "annal:id": "p2b_auto",
+  "annal:type": "climb:Actions",
+  "annal:type_id": "climb_Actions",
+  "climb:action_animation": null,
+  "climb:action_animation_delay_value": null,
+  "climb:action_app_message": null,
+  "climb:action_background_visual": null,
+  "climb:action_mc_delay": null,
+  "climb:action_mc_visual": null,
+  "climb:action_midi": null,
+  "climb:action_midi2_delay_value": null,
+  "climb:action_midi2_delayed": null,
+  "climb:action_monitor_visual": null,
+  "climb:cue_stage": "3b",
+  "rdfs:comment": "# Stage p2b auto actions",
+  "rdfs:label": "Stage p2b auto actions"
+}

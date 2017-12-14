@@ -42,36 +42,6 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/action_monitor_visual",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/action_background_visual",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/action_mc_visual",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/action_mc2_visual",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/action_mc2_delay",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/action_app_message",
-      "annal:field_placement": "small:0,12",
-      "annal:property_uri": ""
-    },
-    {
       "annal:field_id": "_field/action_midi",
       "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
@@ -87,6 +57,16 @@
       "annal:property_uri": ""
     },
     {
+      "annal:field_id": "_field/action_monitor_visual",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/action_background_visual",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": ""
+    },
+    {
       "annal:field_id": "_field/action_animation",
       "annal:field_placement": "small:0,12;medium:0,6",
       "annal:property_uri": ""
@@ -94,6 +74,21 @@
     {
       "annal:field_id": "_field/action_animation_delay_value",
       "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/action_mc2_visual",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/action_mc2_delay",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/action_app_message",
+      "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     }
   ],

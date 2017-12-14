@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "climb_Muzicode/p1a",
+  "@type": [
+    "climb:Muzicode",
+    "mo:MusicalExpression",
+    "meld:Muzicode",
+    "frbr:Group_1_entity",
+    "meld:Expression",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "p1a",
+  "annal:type": "climb:Muzicode",
+  "annal:type_id": "climb_Muzicode",
+  "climb:cue_stage": "",
+  "frbr:embodiment": "meld_Manifestation_Bag/p1a",
+  "mc:type": "climb_Muzicode_Type/DISKLAVIER",
+  "rdfs:comment": "# p1a: Muzicode p1a (CHOICE)\r\n\r\n\r\n\r\n",
+  "rdfs:label": "p1a: Muzicode p1a (CHOICE)"
+}
