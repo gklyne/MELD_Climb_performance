@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/rdfs_member",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "rdfs:Container",
+  "annal:field_fields": [],
+  "annal:field_placement": "",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/URILink",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "rdfs:Resource",
+  "annal:id": "rdfs_member",
+  "annal:placeholder": "(URI of referenced resource)",
+  "annal:property_uri": "rdfs:member",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "Reference to a resource that is a member of an RDF Container (e.g. Bag or Sequence).\r\n",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Member of RDF Container\r\n\r\nReference to a resource that is a member of an RDF Container (e.g. Bag or Sequence).",
+  "rdfs:label": "Member"
+}

@@ -64,6 +64,11 @@
       "annal:field_id": "_field/climb_default_cue_stage",
       "annal:field_placement": "",
       "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/climb_effect_none",
+      "annal:field_placement": "small:0,12;medium:0,3",
+      "annal:property_uri": ""
     }
   ],
   "rdfs:comment": "# Climb! stage score\r\n\r\nView entity of type [Climb! stage score]($BASE:_type/climb_Stage_Score).",

@@ -12,7 +12,7 @@
   "annal:id": "climbstage",
   "annal:type": "annal:Vocabulary",
   "annal:type_id": "_vocab",
-  "annal:uri": "http://meld.linkedmusic.org/climb/stage/",
+  "annal:uri": "https://raw.githubusercontent.com/cgreenhalgh/fast-performance-demo/master/mei-files/",
   "rdfs:comment": "# Base URL for Climb! stages\r\n\r\n",
   "rdfs:label": "Base URL for Climb! stages",
   "rdfs:seeAlso": []

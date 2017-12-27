@@ -11,7 +11,6 @@
     "mo:MusicalExpression",
     "meld:Muzicode",
     "frbr:Group_1_entity",
-    "meld:Expression",
     "frbr:Expression",
     "annal:EntityData"
   ],
@@ -20,7 +19,7 @@
   "annal:type_id": "climb_Muzicode",
   "climb:cue_stage": "",
   "frbr:embodiment": "meld_Manifestation_Bag/1a_1",
-  "mc:type": "climb_Muzicode_Type/DISKLAVIER",
+  "mc:type": "climb_Muzicode_Type/DISKCLAVIER",
   "rdfs:comment": "# 1a: A challenge is approaching\r\n\r\n\r\n\r\n",
   "rdfs:label": "1a: A challenge is approaching"
 }

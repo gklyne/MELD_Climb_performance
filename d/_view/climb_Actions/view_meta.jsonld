@@ -90,6 +90,11 @@
       "annal:field_id": "_field/action_app_message",
       "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": null,
+      "annal:field_placement": null,
+      "annal:property_uri": null
     }
   ],
   "rdfs:comment": "# Climb! actions\r\n\r\nView entity of type [Climb! triggered actions]($BASE:_type/climb_Actions).",

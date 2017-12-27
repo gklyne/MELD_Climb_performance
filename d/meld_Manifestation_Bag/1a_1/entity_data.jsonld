@@ -10,6 +10,8 @@
     "meld:Manifestation_Bag",
     "frbr:Manifestation",
     "frbr:Group_1_entity",
+    "rdfs:Container",
+    "rdf:Bag",
     "annal:EntityData"
   ],
   "annal:id": "1a_1",
@@ -19,7 +21,7 @@
   "rdfs:label": "1a: A challenge is approaching",
   "rdfs:member": [
     {
-      "@id": "1aTheAngryDeer.mei#measure-000000148616120"
+      "@id": "climbstage:1aTheAngryDeer.mei#measure-000000148616120"
     },
     {
       "@id": "1aTheAngryDeer.mei#note-000000198492887"
