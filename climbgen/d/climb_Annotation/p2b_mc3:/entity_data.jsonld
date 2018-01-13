@@ -8,16 +8,16 @@
   "@id": "climb_Annotation/p2b_mc3:",
   "@type": [
     "climb:Annotation",
-    "oa:Annotation",
+    "ao:Annotation",
     "meld:Annotation",
     "annal:EntityData"
   ],
   "annal:id": "p2b_mc3:",
   "annal:type": "climb:Annotation",
   "annal:type_id": "climb_Annotation",
-  "oa:hasBody": "climb_Actions/p2b_mc3:",
-  "oa:hasTarget": "climb_Muzicode/p2b_mc3:",
-  "oa:motivation": "climb_Muzicode_Type/CHOICE",
+  "ao:hasBody": "climb_Actions/p2b_mc3:",
+  "ao:hasTarget": "climb_Muzicode/p2b_mc3:",
+  "ao:motivation": "climb_Muzicode_Type/CHOICE",
   "rdfs:comment": "# p2b: Muzicode p2b_mc3:\r\n\r\n\r\n\r\n",
   "rdfs:label": "p2b: Muzicode p2b_mc3:"
 }

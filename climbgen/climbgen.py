@@ -424,7 +424,7 @@ def generate_muzicode_data(stage_id, stage_meifile, mc_actions, mc_actions_json)
               "@id":                event_ref,
               "@type": [
                 "climb:Annotation",
-                "oa:Annotation",
+                "ao:Annotation",
                 "meld:Annotation",
                 "annal:EntityData"
               ],
@@ -433,9 +433,9 @@ def generate_muzicode_data(stage_id, stage_meifile, mc_actions, mc_actions_json)
               "annal:type_id":      "climb_Annotation",
               "rdfs:label":         event_label,
               "rdfs:comment":       "# %s\r\n\r\n\r\n\r\n"%(event_label,),
-              "oa:hasBody":         actions_ref,
-              "oa:hasTarget":       mc_ref,
-              "oa:motivation":      mc_type_ref
+              "ao:hasBody":         actions_ref,
+              "ao:hasTarget":       mc_ref,
+              "ao:motivation":      mc_type_ref
             })
         # Write out event data (locally - ready to copy later)
         outdir = "d/"+event_ref

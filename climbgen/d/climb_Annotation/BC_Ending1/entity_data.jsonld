@@ -8,16 +8,16 @@
   "@id": "climb_Annotation/BC_Ending1",
   "@type": [
     "climb:Annotation",
-    "oa:Annotation",
+    "ao:Annotation",
     "meld:Annotation",
     "annal:EntityData"
   ],
   "annal:id": "BC_Ending1",
   "annal:type": "climb:Annotation",
   "annal:type_id": "climb_Annotation",
-  "oa:hasBody": "climb_Actions/BC_Ending1",
-  "oa:hasTarget": "climb_Muzicode/BC_Ending1",
-  "oa:motivation": "climb_Muzicode_Type/CHOICE",
+  "ao:hasBody": "climb_Actions/BC_Ending1",
+  "ao:hasTarget": "climb_Muzicode/BC_Ending1",
+  "ao:motivation": "climb_Muzicode_Type/CHOICE",
   "rdfs:comment": "# basecamp: The performer chose the first path\r\n\r\n\r\n\r\n",
   "rdfs:label": "basecamp: The performer chose the first path"
 }

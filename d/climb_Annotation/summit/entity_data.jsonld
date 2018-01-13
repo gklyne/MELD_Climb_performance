@@ -8,16 +8,16 @@
   "@id": "climb_Annotation/summit",
   "@type": [
     "climb:Annotation",
-    "oa:Annotation",
+    "ao:Annotation",
     "meld:Annotation",
     "annal:EntityData"
   ],
   "annal:id": "summit",
   "annal:type": "climb:Annotation",
   "annal:type_id": "climb_Annotation",
-  "oa:hasBody": "climb_Actions/summit",
-  "oa:hasTarget": "climb_Muzicode/summit",
-  "oa:motivation": "climb_Muzicode_Type/DISKLAVIER",
+  "ao:hasBody": "climb_Actions/summit",
+  "ao:hasTarget": "climb_Muzicode/summit",
+  "ao:motivation": "climb_Muzicode_Type/DISKLAVIER",
   "rdfs:comment": "# summit: Muzicode summit (CHOICE)\r\n\r\n\r\n\r\n",
   "rdfs:label": "summit: Muzicode summit (CHOICE)"
 }

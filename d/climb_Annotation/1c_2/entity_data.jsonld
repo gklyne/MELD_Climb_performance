@@ -8,16 +8,16 @@
   "@id": "climb_Annotation/1c_2",
   "@type": [
     "climb:Annotation",
-    "oa:Annotation",
+    "ao:Annotation",
     "meld:Annotation",
     "annal:EntityData"
   ],
   "annal:id": "1c_2",
   "annal:type": "climb:Annotation",
   "annal:type_id": "climb_Annotation",
-  "oa:hasBody": "climb_Actions/1c_2",
-  "oa:hasTarget": "climb_Muzicode/1c_2",
-  "oa:motivation": "climb_Muzicode_Type/CHALLENGE",
+  "ao:hasBody": "climb_Actions/1c_2",
+  "ao:hasTarget": "climb_Muzicode/1c_2",
+  "ao:motivation": "climb_Muzicode_Type/CHALLENGE",
   "rdfs:comment": "# 1c: The challenge was completed successfully\r\n\r\n\r\n\r\n",
   "rdfs:label": "1c: The challenge was completed successfully"
 }

@@ -21,7 +21,7 @@
   "annal:field_value_type": "climb:Actions",
   "annal:id": "climb_event_action",
   "annal:placeholder": "(Reference to Climb! actions)",
-  "annal:property_uri": "oa:hasBody",
+  "annal:property_uri": "ao:hasBody",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
   "annal:tooltip": "Reference to Climb! actions.",

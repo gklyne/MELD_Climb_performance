@@ -10,7 +10,7 @@
     "climb:Muzicode_Type",
     "meld:motivation",
     "skos:Concept",
-    "oa:Motivation",
+    "ao:Motivation",
     "annal:EntityData"
   ],
   "annal:id": "CHALLENGE",
