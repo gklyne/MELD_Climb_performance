@@ -7,14 +7,14 @@
   ],
   "@id": "climb_Stage_Published_Score/5b_published",
   "@type": [
-    "meld:Published_Score_MEI",
+    "climb:Stage_Published_Score",
+    "mo:PublishedScore",
+    "frbr:Group_1_entity",
     "mo:MusicalManifestation",
+    "meld:Published_Score_MEI",
     "frbr:Manifestation_MEI",
     "frbr:Manifestation",
     "meld:Manifestation_MEI",
-    "mo:PublishedScore",
-    "frbr:Group_1_entity",
-    "meld:Manifestation",
     "annal:EntityData"
   ],
   "annal:id": "5b_published",

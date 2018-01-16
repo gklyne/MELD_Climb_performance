@@ -8,16 +8,16 @@
   "@id": "climb_Annotation/p1b",
   "@type": [
     "climb:Annotation",
-    "ao:Annotation",
+    "oa:Annotation",
     "meld:Annotation",
     "annal:EntityData"
   ],
   "annal:id": "p1b",
   "annal:type": "climb:Annotation",
   "annal:type_id": "climb_Annotation",
-  "ao:hasBody": "climb_Actions/p1b",
-  "ao:hasTarget": "climb_Muzicode/p1b",
-  "ao:motivation": "climb_Muzicode_Type/DISKLAVIER",
+  "oa:hasBody": "climb_Actions/p1b",
+  "oa:hasTarget": "climb_Muzicode/p1b",
+  "oa:motivatedBy": "climb_Muzicode_Type/DISKLAVIER",
   "rdfs:comment": "# p1b: Muzicode p1b (CHOICE)\r\n\r\n\r\n\r\n",
   "rdfs:label": "p1b: Muzicode p1b (CHOICE)"
 }

@@ -21,7 +21,7 @@
   "annal:field_value_type": "climb:Muzicode_Type",
   "annal:id": "climb_annotation_type",
   "annal:placeholder": "(Muzicode type)",
-  "annal:property_uri": "ao:motivation",
+  "annal:property_uri": "oa:motivatedBy",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
   "annal:tooltip": "Muzicode type, which defines the intended type of response when the Muzicode is triggered.",

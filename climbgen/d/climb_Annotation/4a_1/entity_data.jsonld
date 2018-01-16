@@ -8,16 +8,16 @@
   "@id": "climb_Annotation/4a_1",
   "@type": [
     "climb:Annotation",
-    "ao:Annotation",
+    "oa:Annotation",
     "meld:Annotation",
     "annal:EntityData"
   ],
   "annal:id": "4a_1",
   "annal:type": "climb:Annotation",
   "annal:type_id": "climb_Annotation",
-  "ao:hasBody": "climb_Actions/4a_1",
-  "ao:hasTarget": "climb_Muzicode/4a_1",
-  "ao:motivation": "climb_Muzicode_Type/DISKLAVIER",
+  "oa:hasBody": "climb_Actions/4a_1",
+  "oa:hasTarget": "climb_Muzicode/4a_1",
+  "oa:motivatedBy": "climb_Muzicode_Type/DISKLAVIER",
   "rdfs:comment": "# 4a: A challenge is approaching\r\n\r\n\r\n\r\n",
   "rdfs:label": "4a: A challenge is approaching"
 }

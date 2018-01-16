@@ -10,7 +10,7 @@
     "annal:Field"
   ],
   "annal:default_value": "",
-  "annal:field_entity_type": "ao:Annotation",
+  "annal:field_entity_type": "oa:Annotation",
   "annal:field_fields": [],
   "annal:field_placement": "small:0,12;medium:0,6",
   "annal:field_ref_field": "",
@@ -21,7 +21,7 @@
   "annal:field_value_type": "rdfs:Resource",
   "annal:id": "climb_hasTarget",
   "annal:placeholder": "(Reference to Muzicode that is the target of a Climb! annotation)",
-  "annal:property_uri": "ao:hasTarget",
+  "annal:property_uri": "oa:hasTarget",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
   "annal:tooltip": "Reference to Muzicode that is the target of a Climb! annotation",

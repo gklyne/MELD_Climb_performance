@@ -10,8 +10,6 @@
     "meld:Manifestation_Bag",
     "frbr:Manifestation",
     "frbr:Group_1_entity",
-    "rdfs:Container",
-    "rdf:Bag",
     "annal:EntityData"
   ],
   "annal:id": "1a_1",
