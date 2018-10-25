@@ -14,6 +14,7 @@
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "climb_Stage_Score",
   "annal:list_entity_selector": "'climb:Stage_Score' in [@type]",
+  "annal:list_entity_type": "climb:Stage_Score",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -28,7 +29,6 @@
       "annal:field_placement": "small:6,6"
     }
   ],
-  "annal:record_type": "climb:Stage_Score",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "annal:uri": "annal:display/Default_list",

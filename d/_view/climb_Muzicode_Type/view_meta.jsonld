@@ -11,10 +11,10 @@
   ],
   "annal:id": "climb_Muzicode_Type",
   "annal:open_view": true,
-  "annal:record_type": "climb:Muzicode_Type",
   "annal:type": "annal:View",
   "annal:type_id": "_view",
   "annal:uri": "annal:display/Default_view",
+  "annal:view_entity_type": "climb:Muzicode_Type",
   "annal:view_fields": [
     {
       "annal:field_id": "_field/Entity_id",
